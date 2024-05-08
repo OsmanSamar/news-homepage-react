@@ -5,8 +5,8 @@ import Gaming from "../assets/image-gaming-growth.jpg";
 
 const Testimonails = () => {
   return (
-    // max-w-6xl will apply a maximum width to the element on larger screens
-    <div className="max-w-7xl  mt-10 mb-12 mx-auto px-2  text-left cursor-pointer">
+    // max-w-7xl will apply a maximum width to the element on larger screens
+    <div className="max-w-9xl  mt-10 mb-12 mx-auto px-2  text-left cursor-pointer">
       {/* Testimonials Container */}
       <div className="flex flex-col  md:flex-row md:space-x-6">
         {/* Retro */}
