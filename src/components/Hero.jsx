@@ -28,8 +28,8 @@ const Hero = () => {
           >
             The Bright Future of Web 3.0?
           </h1>
-          <div className="mt-4 md:flex md:flex-col md:items-start md:mt-0">
-            <p className="max-w-sm text-left text-gray-500 mb-6 ">
+          <div className="mt-4 md:flex md:flex-col md:items-start md:mt-0 ">
+            <p className="max-w-sm text-left text-gray-500 mb-6 md:text-sm ">
               We dive into the next evolution of the web that claims to put the
               power of the platforms back into the hands of the people. But is
               it really fulfilling its promise?
@@ -49,39 +49,40 @@ const Hero = () => {
       <div className="  md:w-1/2  ">
         <div
           className=" flex flex-col items-center justify-center h-[366px]  w-[350px] 
-         bg-very-dark-blue px-6 mx-auto  md:mt-[-17rem]   md:w-[270px] "
+         bg-very-dark-blue px-6 mx-auto  md:mt-[-7rem]   md:w-[270px] md:h-[440px] "
         >
+          {/* md:mt-[-17rem] */}
           <div className="mb-80 cursor-pointer">
             <h1
-              className="text-soft-orange text-2xl font-bold text-left mt-[18rem]
+              className="text-soft-orange text-2xl font-bold text-left mt-[16rem]
                md:text-3xl "
             >
               New
             </h1>
-            <h2 className="text-off-white hover:text-soft-orange mb-2">
+            <h2 className="text-off-white hover:text-soft-orange mb-2 mt-4">
               Hydrogen VS Electric Cars
             </h2>
-            <p className="text-off-white text-xs text-left  mb-2 ">
+            <p className="text-off-white text-xs text-left  mb-2 mt-2 ">
               Will hydrogen-fueled cars ever catch up to EVs?
             </p>
 
-            <div className="flex items-center justify-center mt-4 mb-4 px-1 flex-1 border-b-2 border-slate-800"></div>
+            <div className="flex items-center justify-center mt-6 mb-4 px-1 flex-1 border-b-2 border-slate-800"></div>
 
             {/*  */}
-            <h2 className="text-off-white hover:text-soft-orange mb-2">
+            <h2 className="text-off-white hover:text-soft-orange mb-2 ">
               The Downside of AI Artistry
             </h2>
-            <p className="text-off-white text-xs text-left  mb-2 ">
+            <p className="text-off-white text-xs text-left  mb-2 mt-2 ">
               What are the possible adverse effect of on-demand AI image
               generation?
             </p>
 
-            <div className="flex items-center justify-center mt-4 mb-4 px-1 flex-1 border-b-2 border-slate-800"></div>
+            <div className="flex items-center justify-center mt-6 mb-4 px-1 flex-1 border-b-2 border-slate-800"></div>
             {/*  */}
             <h2 className="text-off-white hover:text-soft-orange mb-2">
               Is VC Funding Drying Up?
             </h2>
-            <p className="text-off-white text-xs text-left  mb-2 ">
+            <p className="text-off-white text-xs text-left mt-2 mb-2 ">
               Private funding by VC firms is down 50% YOY. We take a look at
               what that means.
             </p>
