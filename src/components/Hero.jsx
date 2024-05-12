@@ -49,7 +49,7 @@ const Hero = () => {
       <div className="  md:w-1/2  ">
         <div
           className=" flex flex-col items-center justify-center h-[366px]  w-[350px] 
-         bg-very-dark-blue px-6 mx-auto  md:mt-[-7rem]   md:w-[270px] md:h-[440px] "
+         bg-very-dark-blue px-6 mx-auto  md:mt-[-8rem]   md:w-[270px] md:h-[440px] "
         >
           {/* md:mt-[-17rem] */}
           <div className="mb-80 cursor-pointer">
