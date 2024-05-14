@@ -54,7 +54,7 @@ const Hero = () => {
           {/* md:mt-[-17rem] */}
           <div className="mb-80 cursor-pointer">
             <h1
-              className="text-soft-orange text-2xl font-bold text-left mt-[16rem]
+              className="text-soft-orange text-2xl font-bold text-left mt-[21rem] md:mt-[16rem]
                md:text-3xl "
             >
               New
